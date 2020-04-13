@@ -81,3 +81,14 @@ objeto2Url.src = objeto2.url;
     objeto3Mensaje.innerHTML = objeto3.infoGirasoles();
     objeto3Url.src = objeto3.url;
     
+
+
+    function dimeMiNombre (){
+
+        var nombre = document.getElementById ("nombre");
+        var miNombre = document.getElementById ("mi-nombre")
+        miNombre.innerHTML=nombre.value; 
+        // alert ("tu nombre es " + nombre.value)
+
+
+    }
